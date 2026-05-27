@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #container{
+            width: 400px;
+            height: 500px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 5px gray;
+            margin: 10vw;
+            overflow: hidden;
+
+        }
+        .img-container{
+            position:relative;
+            display: block;
+        }
+        .details{
+            margin: 20px;
+        }
+        h2{
+            color: orange;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif';
+        }
+        h3{
+            background-color: black;
+            width: 40%;
+            text-align: center;
+            color: beige;
+            border-radius: 20px;
+            align-items: center;
+        }
+        .like-box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 28px;
+    height: 28px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+
+    box-shadow: 2px 2px 5px gray;
+}
+    </style>
+</head>
+<body>
+    <article id="container">
+        <section class="img-container">
+            <div class="like-box" > 💖
+            </div >
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" alt="product image" width="100%"/>
+
+        </section>
+        <section class="details" >
+            <div><h2>HEADPHONE</h2>
+                <h3>$41.00 USD</h3>
+                <p><strong> Experience premium sound quality with these stylish wireless headphones.
+        Enjoy deep bass, crystal-clear audio, and all-day comfort for music,
+        gaming, and calls.</strong></p>
+            </div>
+        </section>
+    </article>
+</body>
+</html>
