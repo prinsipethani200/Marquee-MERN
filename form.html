@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <style>
+        input{
+            outline: none;
+            border: none;
+            border-bottom: 2px dotted black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sports Physical Form</h2>
+    <form action="actionPage.html" method="get">
+<fieldset>
+    <legend>
+        Athlete Information
+    </legend>
+    <ul>
+        <li>
+            <label for = "fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name" required/>
+        </li>
+        <li>
+            <label for = "School_team">School/Team:</label>
+            <input type="text" id="School_team" name="School_team" placeholder="School/Team" value="Parul University" readonly/>
+        </li>
+         <li>
+           <label for = "Sports">Sports:</label>
+            <input type="text" id="Sports" name="Sports" placeholder="Sports" required/>
+        </li>
+         <li>
+            <label for = "Parent_Guardian">Parent/Guardian Name:</label>
+            <input type="text" id="Parent_Guardian" name="Parent_Guardian" placeholder="Parent/Guardian Name" required/>
+        </li>
+        <li>
+            <label for = "Contect Number">Contect No:</label>
+            <input type="text" id="Contect Number" name="Contect Number" placeholder="Example: +91 6354049090" required/>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>Medical history for Athlete</legend>
+    <ul>
+        <li>
+           History of concussion:
+           <input type="radio" name="concussion" id="concussion-yes" value="concussion-yes" required>
+           <label for="concussion-yes">Yes</label>
+           <input type="radio" name="concussion" id="concussion-no" value="concussion-no" required>
+           <label for="concussion-no">No</label>
+        </li>
+        <li>
+            <label for = "Previos surgeries">Previous surgeries:</label>
+            <input type="text" id="Previos_surgeries" name="Previos_surgeries" placeholder="yes or no" required/>
+        </li>
+         <li>
+           Any bone fracture?:
+           <input type="radio" name="fracture" id="fracture-yes" value="fracture-yes" required>
+           <label for="fracture-yes">Yes</label>
+           <input type="radio" name="fracture" id="fracture-no" value="fracture-no" required>
+           <label for="fracture-no">No</label>
+        </li>
+         <li>
+           Asthma or breathing problems:
+           <input type="radio" name="Asthma" id="asthma-yes" value="asthma-yes" required>
+           <label for="asthma-yes">Yes</label>
+           <input type="radio" name="Asthma" id="asthma-no" value="asthma-no" required>
+           <label for="asthma-no">No</label>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+<legend>
+    Date/time
+</legend>
+<ul>
+    <li>
+        <label for="dob">DOB:
+        </label>
+        <input type="date" name="dob" id="dob" required/>
+    </li>
+    <li>
+        <label for="time">Time:</label>
+        <input type="time" name="time" id="time" required />
+    </li>
+</ul>
+</fieldset>
+<fieldset>
+    <legend>
+        TextArea
+    </legend>
+    <ul>
+        <li>
+            <p>
+            <label for="textarea">Summary of your last operation:</label></p>
+            <textarea name="area" id="textarea" rows="5" cols="50" placeholder="enter your Summary"></textarea>
+            
+            
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>
+        File Input
+    </legend>
+    <label for="file">Drop your last Medical Report:</label>
+    <input type="file" name="filename" id="file" accept=".pdf" required/>
+</fieldset>
+<fieldset>
+    <legend>
+        CheckBox/Select/Number
+    </legend>
+    <ul>
+        <li>
+            <input type="checkbox" name="terms-condition" id="checkbox1" value="yes-terms-condition" required/>
+            <label name="" for="checkbox1">you've read those Terms and Conditions</label>
+        </li>
+        <li>
+            <input type="checkbox" name="labReport" id="checkbox2" value="yes-labReport" required/>
+            <label name="" for="checkbox2">Is your reports form Pathlabs</label>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>
+        Number Input
+    </legend>
+    <label for="hb">Percentage of HB in body?</label>
+    <input type="number" name="hb-ration" id="hb"/>
+    
+</fieldset>
+<fieldset>
+    <legend>Select</legend>
+    <label for="states">Select your state:</label>
+    <select name="states" id="states">
+        <option value="">Select your state</option>
+        <option value="gujrat">Gujrat</option>
+         <option value="maharastra">Maharastra</option>
+          <option value="up">UP</option>
+           <option value="punjab">Punjab</option>\
+            <option value="mp">MP</option>\
+             <option value="kasmir">Kasmir</option>
+    </select>
+
+    <label for="email">Email</label>
+    <input type="email" id="email"/>
+    <label for="range"></label>
+    <input type="range" name="range" id="rangr" min="0" max="10" value="6"/>
+</fieldset>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+    </form>
+</body>
+</html>

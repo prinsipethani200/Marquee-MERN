@@ -96,6 +96,7 @@ Layers of the Box Model
 Content :text,image
 Padding: space between Content and Border
 Border: A line that is around padding
+<<<<<<< HEAD
 Margin: space after Border
 
 
@@ -505,3 +506,6 @@ flex-basis ( same as width of the box )
   /* flex grow,shrink, basic */
   flex:1 1 100px;
   flex: 1;
+=======
+Margin: space after Border
+>>>>>>> 117d2e519649d0357aa2f8a70480535ac8ce0a8e
