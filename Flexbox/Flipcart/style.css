@@ -51,7 +51,7 @@ body{
 
 .logo-box i{
   color: #005eff;
-  font-size: 26px;
+  font-size: 16px;
 }
 
 .travel-box{
@@ -79,7 +79,6 @@ body{
   cursor: pointer;
 }
 
-/* Middle Row */
 
 .middle-nav{
   display: flex;
@@ -130,7 +129,6 @@ body{
   font-size: 20px;
 }
 
-/* Categories */
 
 .categories{
   display: flex;
@@ -167,11 +165,12 @@ body{
 }
 
 
-/* ================= PEOPLE ALSO VIEWED ================= */
 
 .viewed-section{
     width: 75%;
-    margin: 30px auto;
+    margin-top: 90px ;
+    justify-content: center;
+    margin-left: 150px;
     background: #f5cf3d;
     padding: 10px;
     border-radius: 15px;
@@ -213,7 +212,6 @@ body{
 }
 
 
-/* ================= BRANDS SECTION ================= */
 
 .brands-section{
     width: 75%;
