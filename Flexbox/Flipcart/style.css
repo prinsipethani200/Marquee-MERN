@@ -170,7 +170,7 @@ body{
     width: 75%;
     margin-top: 90px ;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 200px;
     background: #f5cf3d;
     padding: 10px;
     border-radius: 15px;
@@ -186,12 +186,15 @@ body{
     border-radius: 12px;
     padding: 10px;
 
+    
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .view-card{
     width: 220px;
+     flex: 1;
 }
 
 .img-box{
@@ -216,6 +219,12 @@ body{
 .brands-section{
     width: 75%;
     margin: auto;
+    justify-self: start;
+}
+.brands-section1{
+    width: 75%;
+    margin: auto;
+    justify-self: start;
 }
 
 .brands-section h2{
@@ -229,9 +238,12 @@ body{
     gap: 20px;
 }
 
+
 .brand-card{
     width: 220px;
 }
+
+
 
 .brand-img{
     width: 100%;
@@ -254,4 +266,29 @@ body{
     margin-top: 10px;
     font-size: 22px;
     font-weight: 500;
+}
+.img-box{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brand-img{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.brand-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
