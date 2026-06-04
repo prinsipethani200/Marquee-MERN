@@ -45,8 +45,18 @@ body {
 }
 
 #grid-item-1 {
-  /* background-color: red; */
+  background-color: red;
 }
+#grid-item-3 {
+  background-color: rgb(141, 13, 232);
+}
+#grid-item-5 {
+  background-color: rgb(9, 189, 120);
+}
+#grid-item-7 {
+  background-color: rgb(188, 146, 7);
+}
+
 .grid-items {
   background-color: blue;
   width: 100%;
