@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+
+.container{
+    width:600px;
+    height:400px;
+
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 70px 120px 120px 70px;
+    gap:10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box1{
+    background:orange;
+    grid-column: 1 / 4;
+}
+
+.box2{
+    background:orange;
+    grid-row: 2 / 4;
+}
+
+.box3{
+    background:red;
+    grid-column: 2 / 4;
+}
+
+.box4{
+    background:violet;
+}
+
+.box5{
+    background:violet;
+}
+
+.box6{
+    background:orange;
+    grid-column: 1 / 4;
+}

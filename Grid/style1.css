@@ -40,17 +40,17 @@ body{
     background:#e6e60c;
 }
 
-/* Left Green */
+
 .left{
     grid-row:span 3;
 }
 
-/* Top Green */
+
 .top{
     grid-column:span 2;
 }
 
-/* Right Green */
+
 .right{
     grid-row:span 2;
 }
