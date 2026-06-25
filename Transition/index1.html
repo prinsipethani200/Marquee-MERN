@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} */
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f2f2f2;
+}
+.signal{
+    display:flex;
+    flex-direction:column; /* row ki jagah column */
+    gap:10px;
+    align-items:center;
+}
+        .box1{
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* gap: 10px; */
+        }
+        .box2{
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* gap: 10px; */
+        }
+        .box3{
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* gap: 10px; */
+        }
+        .xyz{
+            background-color: white;
+            width: 10px;
+            height: 10px;
+        }
+        .round1{
+            width: 75px;
+            height: 75px;
+            
+            background-color: red;
+            border-radius: 50%;
+        }
+        .round2{
+             width: 75px;
+            height: 75px;
+            background-color: yellow;
+             border-radius: 50%;
+        }
+        .round3{
+             width: 75px;
+            height: 75px;
+            background-color: green;
+             border-radius: 50%;
+        }
+        .round1, .round2, .round3 {
+    opacity: 0.3;
+}
+
+.round1 {
+    animation: redLight 2s infinite;
+}
+
+.round2 {
+    animation: yellowLight 2s infinite;
+}
+
+.round3 {
+    animation: greenLight 2s infinite;
+}
+
+@keyframes redLight {
+    0%, 33% {
+        opacity: 1;
+        box-shadow: 0 0 20px white;
+    }
+    34%, 100% {
+        opacity: 0.3;
+        box-shadow: none;
+    }
+        
+}
+
+@keyframes yellowLight {
+    0%, 33% {
+        opacity: 0.3;
+        box-shadow: none;
+    }
+    34%, 66% {
+        opacity: 1;
+        box-shadow: 0 0 20px white;
+    }
+    67%, 100% {
+        opacity: 0.3;
+        box-shadow: none;
+    }
+}
+
+@keyframes greenLight {
+    0%, 66% {
+        opacity: 0.3;
+        box-shadow: none;
+    }
+    67%, 100% {
+        opacity: 1;
+        box-shadow: 0 0 20px white;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="signal">
+    <div class="box1">
+        <div class="round1"></div>
+    </div>
+    <div >
+        <div class="xyz"></div>
+    </div>
+    <div class="box2">
+        <div class="round2"></div>
+    </div>
+    <div>
+        <div class="xyz"></div>
+    </div>
+    <div class="box3">
+        <div class="round3"></div>
+    </div>
+    </div>
+</body>
+</html>
