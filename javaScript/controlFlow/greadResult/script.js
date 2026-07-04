@@ -22,4 +22,4 @@ console.log(getGrade(72));  // B
 console.log(getGrade(61));  // C
 console.log(getGrade(40));  // D
 console.log(getGrade(20));  // Fail
-console.log(getGrade(120)); // Invalid Marks
+console.log(getGrade(-1)); // Invalid Marks
