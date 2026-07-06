@@ -17,6 +17,5 @@ function whoWins(user, computer) {
     }
 }
 
-
 whoWins("rock", "paper");
 whoWins("paper", "rock");
